@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6q0105/v1
+canonical_location: https://kanripo.org/bkk/KR6q0105/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 觀心論
+  identifiers:
+    alt_id:
+    - T85n2833
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2833.xml
+    old_id: T85n2833
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6q0105_000.yaml, hash: 'sha256:13a30d9f1f905c4dac8bd27f060a3ac13dc8ca5cd17064a4bf6c41b342c4bffb'}
+  - {seq: 1, filename: KR6q0105_001.yaml, hash: 'sha256:4bdc02362515c4596c38f3d510bbcd9bfada107ec6cbeece98ddd9e73b44b74f'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6q0105_001.markers.yaml, hash: 'sha256:0e3b48559db865867ba05b74f3f3a9477c6ada0c1a5d1d8325601a0728a3ee21'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6q0105_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3831
+  label: 觀心論
+  type: juan
+  level: 1
+hash: sha256:d66c240b434d9f06bc33f7303fa7c987602b581478737b77360c8a0e8ab4ac3a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
